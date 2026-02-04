@@ -1,0 +1,88 @@
+.profile-container {
+  padding: 40px;
+  background: #f4f7fc;
+  min-height: 100vh;
+}
+
+/* Header Card */
+.profile-header-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+
+.profile-avatar {
+  width: 90px;
+  height: 90px;
+  background: #2457e6;
+  color: white;
+  border-radius: 50%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+.profile-name {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.profile-email {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.role-badge {
+  background: #e8efff;
+  color: #2457e6;
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* Details Card */
+.profile-details-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #2457e6;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.label {
+  width: 180px;       /* perfect alignment */
+  font-weight: 700;
+  color: #333;
+}
+
+.value {
+  flex: 1;            /* takes remaining space */
+  color: #444;
+}
+
+
+.linkedin-link {
+  color: #0077b5;
+  text-decoration: underline;
+  font-weight: bold;
+}

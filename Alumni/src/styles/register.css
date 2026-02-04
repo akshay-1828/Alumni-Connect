@@ -1,0 +1,122 @@
+/* Register Container */
+.reg-container {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f3f8; /* Softer, slightly cooler background */
+    padding: 2rem;
+}
+
+/* Registration Box/Card */
+.reg-box {
+    background: #ffffff;
+    padding: 3rem; /* Increased padding */
+    border-radius: 16px; /* More rounded corners */
+    /* Deeper, more noticeable shadow for depth */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15), 0 0 5px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 450px; /* Slightly wider */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.reg-box:hover {
+    transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+.reg-box h2 {
+    font-size: 2.2rem; /* Larger title */
+    font-weight: 800; /* Extra bold */
+    color: #1f2937; 
+    margin-bottom: 2rem; /* More space below title */
+}
+
+/* Form Styling */
+.reg-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem; /* Increased gap */
+}
+
+.reg-box input,
+.reg-box select {
+    padding: 0.9rem 1.2rem; /* Increased padding */
+    border: 1px solid #e2e8f0; /* Very light border */
+    border-radius: 10px; 
+    font-size: 1rem;
+    color: #374151;
+    background-color: #f9f9fb; /* Slightly off-white input background */
+    transition: border-color 0.25s, box-shadow 0.25s, background-color 0.25s;
+}
+
+.reg-box input:focus,
+.reg-box select:focus {
+    border-color: #6366f1; /* Deep Indigo focus color */
+    outline: none;
+    background-color: #ffffff; /* White background on focus */
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2); /* Soft focus ring */
+}
+
+.reg-box select option[disabled] {
+    color: #9ca3af;
+}
+
+/* Button Styling */
+.reg-box button[type="submit"] {
+    padding: 1rem; /* Taller button */
+    
+    /* Beautiful Blue/Indigo Gradient */
+    background: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%); 
+    
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.125rem;
+    transition: background 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+    
+    /* Enhanced Button Shadow */
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.4);
+}
+
+.reg-box button[type="submit"]:hover {
+    /* Adjust shadow for lift effect on hover */
+    box-shadow: 0 12px 25px rgba(79, 70, 229, 0.5);
+    transform: translateY(-2px); 
+}
+
+.reg-box button[type="submit"]:disabled {
+    background: #9ca3af; /* Plain gray when disabled */
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Error Message */
+.error-message {
+    color: #ef4444; 
+    font-size: 0.9rem; /* Slightly larger error text */
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+/* Login Link Footer */
+.login-link {
+    margin-top: 2rem; /* More vertical separation */
+    font-size: 1rem;
+    color: #6b7280; 
+}
+
+.login-link a {
+    color: #4f46e5; 
+    text-decoration: none;
+    font-weight: 700; /* Bold link */
+    transition: color 0.2s, text-decoration 0.2s;
+}
+
+.login-link a:hover {
+    color: #4338ca;
+    text-decoration: underline;
+}

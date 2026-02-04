@@ -1,0 +1,141 @@
+.mentors-container {
+  padding: 40px;
+  background: #f7f9fc;
+  min-height: 100vh;
+}
+
+.mentors-title {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.mentors-subtitle {
+  text-align: center;
+  margin-top: 5px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Search & Filters */
+.search-filter-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.search-input {
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+}
+
+.filter-select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  background: white;
+  cursor: pointer;
+}
+
+/* Grid */
+.mentors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Mentor Card */
+.mentor-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.mentor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.mentor-avatar {
+  width: 70px;
+  height: 70px;
+  background: #4a74f5;
+  color: white;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.mentor-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.mentor-role {
+  color: #666;
+}
+
+.mentor-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.mentor-skills span {
+  background: #e8efff;
+  color: #2457e6;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.experience-text {
+  margin-top: 10px;
+  color: #444;
+  font-size: 14px;
+}
+
+.mentor-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.connect-btn {
+  background: #2457e6;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.connect-btn:hover {
+  background: #1e4acc;
+}
+
+.linkedin-btn {
+  background: #0077b5;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.linkedin-btn:hover {
+  background: #005c8c;
+}

@@ -1,0 +1,142 @@
+.internships-container {
+  padding: 40px;
+  background: #f6f8fc;
+  min-height: 100vh;
+}
+
+.internships-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.internships-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Grid Layout */
+.internship-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 25px;
+}
+
+/* Card */
+.internship-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: 0.2s ease;
+  border-left: 5px solid #4a74f5;
+}
+
+.internship-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+}
+
+/* Top Bar */
+.intern-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.company-badge {
+  background: #e8efff;
+  color: #2457e6;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.deadline-badge {
+  background: #ffebeb;
+  color: #d94c4c;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+/* Title */
+.intern-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* Description */
+.intern-description {
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+/* Location */
+.intern-location {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.intern-actions {
+  text-align: right;
+}
+
+.apply-btn {
+  background: #2457e6;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background: #1e4acc;
+}
+
+/* Form Styles */
+.internship-form {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #2457e6;
+  box-shadow: 0 0 0 2px rgba(36, 87, 230, 0.2);
+}

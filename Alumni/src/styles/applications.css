@@ -1,0 +1,76 @@
+.applications-container {
+  padding: 40px;
+  background: #f6f8fc;
+  min-height: 100vh;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.app-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.app-list {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 6px solid #2457e6;
+  transition: 0.2s ease;
+}
+
+.app-card:hover {
+  transform: translateY(-4px);
+}
+
+.app-job {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.app-company {
+  color: #555;
+}
+
+.app-date {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Status Badges */
+.status-badge {
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status-applied {
+  background: #2457e6;
+}
+
+.status-accepted {
+  background: #28a745;
+}
+
+.status-rejected {
+  background: #d9534f;
+}
